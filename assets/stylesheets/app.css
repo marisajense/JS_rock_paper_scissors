@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue;
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  text-shadow: 2px 2px yellow;
+  margin-top: 60px;
+  font-size: 90px;
+}
+
+#rock {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+#paper {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+#scissors {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
