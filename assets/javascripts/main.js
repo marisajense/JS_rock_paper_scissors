@@ -16,9 +16,11 @@ for(var i = 0; i < userChoice.length; i++) {
   user.addEventListener("click", function() {
     user = this.id;
     userChoice = user;
-    console.log("Your pick: " + userChoice);
-    computerChoiceFunction();
-    compare(userChoice, computerChoice);
+    // console.log("Your pick: " + userChoice);
+    cresults.innerHTML = "Ready....";
+    results.innerHTML = "";
+    setTimeout(function(){computerChoiceFunction()}, 750);
+    setTimeout(function(){compare(userChoice, computerChoice)}, 750);
   });
 }
 
